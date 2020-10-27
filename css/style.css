@@ -1,13 +1,16 @@
-body {
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
 }
 
-.our-history h2 {
-  display: inline-block;
-  font-family: satisfy, sans-serif;
-  font-size: 60px;
+body {
+  color: #485d6f;
+  font-family: "Montserrat", "montserrat", sans-serif, sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+  min-width: 320px;
+  opacity: 1;
+  overflow-x: hidden;
+  overflow-y: scroll;
   position: relative;
-  font-weight: 400;
-  text-transform: none;
 }
