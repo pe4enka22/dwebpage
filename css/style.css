@@ -1,0 +1,13 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.our-history h2 {
+  display: inline-block;
+  font-family: satisfy, sans-serif;
+  font-size: 60px;
+  position: relative;
+  font-weight: 400;
+  text-transform: none;
+}
