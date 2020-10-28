@@ -14,3 +14,167 @@ body {
   overflow-y: scroll;
   position: relative;
 }
+
+.main-header{
+ display: flex;
+ justify-content: space-between;
+ margin: 10px;
+}
+
+.main-header nav li {
+  display: inline;
+  margin: 0;
+  color: #485d6f;
+  padding-right: 10px;
+}
+
+.img-logo{
+  width:150px;
+}
+
+.main-topics{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #263b4d;
+  height: 180px;
+  margin-bottom: 50px;
+}
+
+.main-topics a{
+  color: #2db39a;
+}
+
+.main-whoweare{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 7%;
+  margin: 20px;
+}
+
+.img-whoweare{
+  width: 670px;
+  height:430px;
+}
+
+.img-whatmakesus{
+  width: 670px;
+  height:447px;
+}
+
+.img-whyjoindiversido{
+  width: 670px;
+  height:430px;
+}
+
+
+.red-word{
+  color:#ff7058;
+  font-weight: inherit;
+}
+
+.main-openpositions{
+  background: #263b4d;
+  margin-bottom: 50px;
+  height: 400px; 
+}
+
+.dev-name{
+  color: #17a086;
+}
+
+.dev-placetowork{
+ color: #485d6f;
+}
+
+.flutter-dev-link{
+  padding-right:1130px;
+}
+
+.fs-dev-link{
+  padding-right:1040px;
+}
+
+.asp-dev-link{
+  padding-right:1130px;
+}
+
+.apply-now{
+  color: #17a086;
+}
+
+.name-positions{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 7%;
+  margin: 20px;
+  color: #fff;
+}
+
+.dontsee-positions{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 7%;
+  margin: 20px;
+}
+
+.openposition-text{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  color: #fff;
+}
+
+.dontsee-positions-text{
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+   width:50%;
+   padding-left:300px;
+   text-align:center;
+}
+
+
+.jobs-link{
+  background:#fff;
+  margin-top: 15px;
+}
+
+.diversido-jobs-mail{
+  display: flex;
+  justify-content: center;
+  color: #ff7058;
+  font-size: 70px;
+  font-weight:700;
+}
+
+.hire-join{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.hire-me{
+  width:100%;
+  border: 1px solid #eaeaea;
+  background: #f6f6f6;
+}
+
+.join-me{
+  border: 1px solid #eaeaea;
+  background: #f6f6f6;
+}
+
+h1{
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
