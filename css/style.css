@@ -42,9 +42,10 @@ body {
   justify-content: center;
   background: #263b4d;
   height: 180px;
-  margin-bottom: 50px;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 .main-topics h1 {
@@ -61,12 +62,75 @@ body {
   box-sizing: border-box;
 }
 
+h3 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  line-height: 60px;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  margin-top: -3px;
+  margin-bottom: 29px;
+}
+
+h3 + p {
+  color: #485d6f;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  line-height: 30px;
+  text-align: justify;
+  box-sizing: border-box;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
 .main-whoweare {
   display: flex;
   justify-content: center;
   padding-left: 0;
   padding-right: 7%;
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.whoweare-text {
+  margin-right: 85px;
+}
+
+.main-whatmakesusunique {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 7%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.whatmakesusunique-text {
+  margin-right: 34px;
+  margin-left: 34px;
+  padding-left: 75px;
+  padding-right: 15px;
+}
+
+.main-whyjoindiversido {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 7%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.whyjoindiversido-text {
+  margin-right: 85px;
 }
 
 .img-whoweare {
@@ -300,7 +364,10 @@ ul {
   border: 1px solid #eaeaea;
   background: #f6f6f6;
   height: 200px;
-  padding: 20px;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
 .join-me {
@@ -308,7 +375,10 @@ ul {
   border: 1px solid #eaeaea;
   background: #f6f6f6;
   height: 200px;
-  padding: 20px;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
 .hire-text {
@@ -321,4 +391,15 @@ h1 {
 
 a {
   text-decoration: none;
+}
+
+.go-up-img {
+  height: 60px;
+}
+
+.top-link {
+  position: fixed;
+  right: 10px;
+  top: 80%;
+  padding: 3px;
 }
