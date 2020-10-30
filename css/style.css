@@ -20,12 +20,10 @@ body {
   justify-content: space-between;
   padding-right: 60px;
   padding-left: 60px;
-  padding-top: 20px;
 }
 
 .main-header nav li {
   display: inline;
-  margin: 0;
   color: #485d6f;
   padding-right: 25px;
   font-size: 16px;
@@ -35,7 +33,8 @@ body {
 }
 
 .img-logo {
-  width: 150px;
+  width: 200px;
+  padding-top: 40px;
 }
 
 .main-topics {
@@ -48,8 +47,18 @@ body {
   text-align: center;
 }
 
+.main-topics h1 {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+}
+
 .main-topics a {
   color: #2db39a;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  box-sizing: border-box;
 }
 
 .main-whoweare {
@@ -83,62 +92,123 @@ body {
 .main-openpositions {
   background: #263b4d;
   margin-bottom: 50px;
-  height: 400px;
+  height: 750px;
+}
+
+.open-word {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  font-family: "satisfy", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.positions-word {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  line-height: 2.08;
+  text-transform: uppercase;
+  font-family: "Montserrat", "montserrat", sans-serif, sans-serif;
+}
+
+ul {
+  margin: 50px;
+  list-style-type: none;
 }
 
 .dev-name {
   color: #17a086;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: 3px;
 }
 
 .dev-placetowork {
   color: #485d6f;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
 }
 
 .flutter-dev-link {
-  padding-right: 1130px;
+  padding-right: 950px;
 }
 
 .fs-dev-link {
-  padding-right: 1040px;
+  padding-right: 860px;
 }
 
 .asp-dev-link {
-  padding-right: 1130px;
+  padding-right: 950px;
 }
 
 .apply-now {
   color: #17a086;
+  font-size: 100%;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: 3px;
 }
 
 .name-positions {
   display: flex;
   justify-content: center;
-  padding-left: 0;
-  padding-right: 7%;
   margin: 20px;
   color: #fff;
   flex-direction: column;
   text-align: center;
+  padding-top: 40px;
 }
 
 .dontsee-positions {
   display: flex;
   justify-content: center;
-  padding-left: 0;
-  padding-right: 7%;
   margin: 20px;
   flex-direction: column;
   text-align: center;
 }
 
+.dontsee-word {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  font-family: "satisfy", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.dontsee-word + h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  line-height: 2.08;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat", "montserrat", sans-serif, sans-serif;
+}
+
 .openposition-text {
   display: flex;
   justify-content: center;
+  letter-spacing: 0.8px;
+  line-height: 36px;
+  font-family: "Montserrat", "montserrat", sans-serif, sans-serif;
+  font-size: 18px;
   margin: 20px;
-  padding-left: 300px;
   color: #fff;
   width: 50%;
+  flex-direction: column;
   text-align: center;
+  padding-left: 320px;
 }
 
 .dontsee-positions-text {
@@ -146,20 +216,25 @@ body {
   justify-content: center;
   margin: 20px;
   width: 50%;
-  padding-left: 300px;
+  flex-direction: column;
   text-align: center;
+  padding-left: 320px;
+  letter-spacing: 0.7px;
+  line-height: 36px;
+  font-size: 18px;
 }
 
 .jobs-link {
   background: #fff;
   margin-top: 15px;
+  padding: 30px;
 }
 
 .diversido-jobs-mail {
   display: flex;
   justify-content: center;
   color: #ff7058;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
 }
 
@@ -170,6 +245,54 @@ body {
   margin-right: 200px;
   margin-left: 200px;
   margin-top: 50px;
+}
+
+.hire-us-main {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  color: #485d6f;
+  line-height: 2;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.join-us-main {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  color: #485d6f;
+  line-height: 2;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hire-us-text {
+  color: #485d6f;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  text-align: center;
+  text-transform: none;
+  z-index: 30;
+  -webkit-font-smoothing: antialiased;
+}
+
+.join-us-text {
+  color: #485d6f;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  text-align: center;
+  text-transform: none;
+  z-index: 30;
+  -webkit-font-smoothing: antialiased;
 }
 
 .hire-me {
