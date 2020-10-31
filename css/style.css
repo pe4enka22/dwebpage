@@ -32,6 +32,17 @@ body {
   text-transform: uppercase;
 }
 
+.main-header a:hover {
+  color: #ff7058;
+}
+
+.main-header a:active {
+  outline: none;
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+}
+
 .img-logo {
   width: 200px;
   padding-top: 40px;
@@ -60,6 +71,10 @@ body {
   text-align: center;
   font-weight: 700;
   box-sizing: border-box;
+}
+
+.main-topics a:hover {
+  color: #fff;
 }
 
 h3 {
@@ -294,12 +309,32 @@ ul {
   padding: 30px;
 }
 
+.jobs-link:hover {
+  background: #17a086;
+}
+
+.jobs-link:hover .dev-name {
+  color: #fff;
+}
+
+.jobs-link:hover .dev-placetowork {
+  color: #fff;
+}
+
+.jobs-link:hover .apply-now {
+  color: #fff;
+}
+
 .diversido-jobs-mail {
   display: flex;
   justify-content: center;
   color: #ff7058;
   font-size: 60px;
   font-weight: 700;
+}
+
+.diversido-jobs-mail:hover {
+  color: #fa5b3e;
 }
 
 .hire-join {
@@ -370,6 +405,18 @@ ul {
   padding-bottom: 10px;
 }
 
+.hire-me:hover {
+  background: #ff7058;
+}
+
+.hire-me:hover .hire-us-main {
+  color: #fff;
+}
+
+.hire-me:hover .hire-us-text {
+  color: #fff;
+}
+
 .join-me {
   width: 100%;
   border: 1px solid #eaeaea;
@@ -379,6 +426,18 @@ ul {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
+}
+
+.join-me:hover {
+  background: #ff7058;
+}
+
+.join-me:hover .join-us-main {
+  color: #fff;
+}
+
+.join-me:hover .join-us-text {
+  color: #fff;
 }
 
 .hire-text {
@@ -402,4 +461,9 @@ a {
   right: 10px;
   top: 80%;
   padding: 3px;
+}
+
+.top-link:hover {
+  background: #ff9987;
+  border-radius: 20%;
 }
